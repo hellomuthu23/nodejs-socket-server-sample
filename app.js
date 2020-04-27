@@ -15,9 +15,9 @@ server.listen(port, hostname, () => {
 });
 
 const SocketServer = io.listen(socketServerPort);
-const messagePingEventName = 'pong-message';
+const messagePingEventName = 'ping-message';
 const liveMessageEventName = 'live-message';
-const messagePongEventName = 'ping-message';
+const messagePongEventName = 'pong-message';
 
 SocketServer.on('connection', (socket) => {
   console.info(`Client connected, id=${socket.id}`);
