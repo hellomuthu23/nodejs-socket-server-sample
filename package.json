@@ -1,0 +1,24 @@
+{
+  "name": "@cybertron/nodejs-socket-server-sample",
+  "version": "1.0.0",
+  "description": "Node.js socket server sample",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomuthu23/nodejs-socket-server-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellomuthu23/nodejs-socket-server-sample/issues"
+  },
+  "homepage": "https://github.com/hellomuthu23/nodejs-socket-server-sample#readme"
+}
